@@ -1,6 +1,7 @@
 # ViewSpreadTranslationController
 >###Android视图扩散切换控制器
 >More simple  to create View Translation Animation.
+
 >API compatible with **Android 4.0+**
 
 #Preview
