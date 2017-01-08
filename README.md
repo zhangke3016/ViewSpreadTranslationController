@@ -10,7 +10,7 @@
 ![ViewSpreadTranslationController](gif/sereen2.gif)
 ![ViewSpreadTranslationController](gif/sereen3.gif)
 ![ViewSpreadTranslationController](gif/sereen4.gif)
-![ViewSpreadTranslationController](gif/sereen5.gif)
+
 
 ---
 #Usage 
