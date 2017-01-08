@@ -59,7 +59,8 @@
 ```
 #More use 
 ---
-**A(Activity) -->B(Activity) **
+**A(Activity) -->B(Activity)**
+
 A(Activity):
 ```
  new BaseViewHelper
@@ -86,7 +87,8 @@ helper = new BaseViewHelper
     }
 ```
 ---
-**A(View) -->B(View) **
+**A(View) -->B(View)**
+
 **Activity:**
 ```
             View v = View.inflate(this,R.layout.layout_second,null);
