@@ -7,10 +7,10 @@
 ---
 
 ![ViewSpreadTranslationController](gif/screen1.gif)
-![ViewSpreadTranslationController](gif/screen2.gif)
-![ViewSpreadTranslationController](gif/screen3.gif)
-![ViewSpreadTranslationController](gif/screen4.gif)
-![ViewSpreadTranslationController](gif/screen5.gif)
+![ViewSpreadTranslationController](gif/sereen2.gif)
+![ViewSpreadTranslationController](gif/sereen3.gif)
+![ViewSpreadTranslationController](gif/sereen4.gif)
+![ViewSpreadTranslationController](gif/sereen5.gif)
 
 ---
 #Usage 
