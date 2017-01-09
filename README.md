@@ -1,16 +1,17 @@
 # ViewSpreadTranslationController
 >###Android视图扩散切换控制器
 >More simple  to create View Translation Animation.
+
 >API compatible with **Android 4.0+**
 
 #Preview
 ---
 
 ![ViewSpreadTranslationController](gif/screen1.gif)
-![ViewSpreadTranslationController](gif/screen2.gif)
-![ViewSpreadTranslationController](gif/screen3.gif)
-![ViewSpreadTranslationController](gif/screen4.gif)
-![ViewSpreadTranslationController](gif/screen5.gif)
+![ViewSpreadTranslationController](gif/sereen2.gif)
+![ViewSpreadTranslationController](gif/sereen3.gif)
+![ViewSpreadTranslationController](gif/sereen4.gif)
+
 
 ---
 #Usage 
@@ -59,7 +60,8 @@
 ```
 #More use 
 ---
-**A(Activity) -->B(Activity) **
+**A(Activity) -->B(Activity)**
+
 A(Activity):
 ```
  new BaseViewHelper
@@ -86,7 +88,8 @@ helper = new BaseViewHelper
     }
 ```
 ---
-**A(View) -->B(View) **
+**A(View) -->B(View)**
+
 **Activity:**
 ```
             View v = View.inflate(this,R.layout.layout_second,null);
