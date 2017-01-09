@@ -39,6 +39,7 @@ import com.library.viewspread.helper.BaseViewHelper;
     float mScaleYCanvas = 0;
     float mRotationCanvas = 0;
     float mTranslationX, mTranslationY;
+    Matrix matrix = new Matrix();
     public BaseView(Context context,int mDimcolor, int mDimalpha){
         super(context);
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
@@ -76,7 +77,8 @@ import com.library.viewspread.helper.BaseViewHelper;
 
         if (!isStart && mView!=null){
             canvas.save();
-            Matrix matrix = new Matrix();
+
+            matrix.reset();
             matrix.postTranslate(mRect.left ,mRect.top);
             matrix.postScale(mScaleXCanvas,mScaleYCanvas,mRect.centerX(),mRect.centerY());
             matrix.postRotate(mRotationCanvas,mRect.centerX(),mRect.centerY());
