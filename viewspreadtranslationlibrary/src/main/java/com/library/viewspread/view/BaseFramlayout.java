@@ -10,6 +10,7 @@ import android.widget.FrameLayout;
  */
 
  public class BaseFramlayout extends FrameLayout {
+    private boolean isTouchIntecepted = false;
     public BaseFramlayout(Context context) {
         super(context);
     }
@@ -21,9 +22,11 @@ import android.widget.FrameLayout;
     public BaseFramlayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
-
+    public void setTouchIntecepted(boolean isTouchIntecepted){
+        this.isTouchIntecepted=isTouchIntecepted;
+    }
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        return true;
+        return isTouchIntecepted ? true :super.onTouchEvent(event);
     }
 }
