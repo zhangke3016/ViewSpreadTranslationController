@@ -60,6 +60,9 @@ public class BaseViewHelper extends AbstractViewHelper{
                 public void run() {
 
                     frmlayout = new BaseFramlayout(mActivity);
+                    if(this.mStartActivity == null){//如果是跳转Activity  则不处理触摸事件 否则处理
+                        frmlayout.setTouchIntecepted(true);
+                    }
                     if (AbstractViewHelper.mStartView ==null)
                         frmlayout.setBackgroundColor(Color.WHITE);
                     inflate = mEndView;
