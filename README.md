@@ -109,7 +109,7 @@ helper = new BaseViewHelper
 
 ### About me
 
-An Android Developer in ZhengZhou.
+An Android Developer in ShenZhen.
 
 【[**我的简书地址**](http://www.jianshu.com/users/3c751e06dc32/latest_articles)】
 
