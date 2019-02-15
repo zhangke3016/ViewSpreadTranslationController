@@ -1,10 +1,10 @@
 # ViewSpreadTranslationController
->###Android视图扩散切换控制器
+>### Android视图扩散切换控制器
 >More simple  to create View Translation Animation.
 
 >API compatible with **Android 4.0+**
 
-#Preview
+# Preview
 ---
 
 ![ViewSpreadTranslationController](gif/screen1.gif)
@@ -14,8 +14,8 @@
 
 
 ---
-#Usage 
-#java
+# Usage 
+# java
 
 ```
  helper = new BaseViewHelper
@@ -58,9 +58,9 @@
                 .create();//开始动画
 
 ```
-#More use 
+# More use 
 ---
-**A(Activity) -->B(Activity)**
+** A(Activity) -->B(Activity)**
 
 A(Activity):
 ```
@@ -112,7 +112,7 @@ helper = new BaseViewHelper
 
 
 
-###About me
+### About me
 ---
 An Android Developer in ZhengZhou.
 
@@ -123,11 +123,9 @@ An Android Developer in ZhengZhou.
 =======
 
 
-###License
-=======
-Copyright  2016  zhangke
-
-Licensed under the Apache License, Version 2.0 (the "License");
+### License
+---
+>Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at 
 http://www.apache.org/licenses/LICENSE-2.0
