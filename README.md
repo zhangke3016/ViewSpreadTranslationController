@@ -5,17 +5,12 @@
 >API compatible with **Android 4.0+**
 
 # Preview
----
-
 ![ViewSpreadTranslationController](gif/screen1.gif)
 ![ViewSpreadTranslationController](gif/sereen2.gif)
 ![ViewSpreadTranslationController](gif/sereen3.gif)
 ![ViewSpreadTranslationController](gif/sereen4.gif)
-
-
 ---
 # Usage 
-# java
 
 ```
  helper = new BaseViewHelper
@@ -59,7 +54,7 @@
 
 ```
 # More use 
----
+
 ** A(Activity) -->B(Activity)**
 
 A(Activity):
@@ -87,7 +82,7 @@ helper = new BaseViewHelper
         }
     }
 ```
----
+
 **A(View) -->B(View)**
 
 **Activity:**
@@ -113,18 +108,17 @@ helper = new BaseViewHelper
 
 
 ### About me
----
+
 An Android Developer in ZhengZhou.
 
 【[**我的简书地址**](http://www.jianshu.com/users/3c751e06dc32/latest_articles)】
 
 【[**我的CSDN地址**](http://blog.csdn.net/zhangke3016)】
 
-=======
 
 
 ### License
----
+
 >Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at 
